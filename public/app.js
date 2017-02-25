@@ -495,6 +495,7 @@ module.exports = function(app) {
       }
 
       $scope.cancelOrder = function(id) {
+        confirm('Are you sure you want to CANCEL this order?')
         $scope.loading ++;
         console.log(id, 'object id to cancel');
         $http({
