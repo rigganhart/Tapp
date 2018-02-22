@@ -17,6 +17,7 @@ module.exports = function(app) {
         $scope.cancelEditContact = function() {
                 $scope.editContact = false;
             };
+        //test
             // show and hide edit phone input
         $scope.showPhone = function() {
             $scope.editPhone = true;
