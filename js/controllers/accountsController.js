@@ -23,6 +23,7 @@ module.exports = function(app) {
         $scope.showPhone = function() {
             $scope.editPhone = true;
         };
+        //well well well
         $scope.cancelEditPhone = function() {
                 $scope.editPhone = false;
             };
