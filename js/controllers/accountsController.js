@@ -9,7 +9,7 @@ module.exports = function(app) {
         $scope.editContact = false;
         $scope.editPhone = false;
         $scope.editAddress = false;
-
+        //somrterlk
         // show and hide edit contact input
         $scope.showContact = function() {
             $scope.editContact = true;
